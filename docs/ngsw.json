@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1697944845638,
+  "timestamp": 1697945113943,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -78,7 +78,7 @@
     "/main.js": "c029e80e4dc2a2a62a49dbb750d8a33a1be841a7",
     "/manifest.webmanifest": "7c680c7659bb1a92c81b383799bc3b86f4d744d1",
     "/ngsw-worker.js": "72aa104f807a27569236249011de1e06b58f2fd0",
-    "/ngsw.json": "5a17aa2e6bb555770ae9800a547fac25f8fa58f8",
+    "/ngsw.json": "2d862da1a5bfd3fc0cb28cb96f7b36330843150b",
     "/polyfills.js": "37a0091ca4b964561154af2ab0e1014710b6e42d",
     "/runtime.js": "32f1cab445798439799b0d3410b6ae8d780132fa",
     "/safety-worker.js": "70914dc203fa1f881e56f2b794d7a4f9c48ee745",
