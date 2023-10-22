@@ -1,0 +1,29 @@
+ main{
+        background: linear-gradient(to bottom, #6ab7f5, #fff, #70EF52);
+    }
+.pokedex-img{
+    min-height: 100vh;
+}
+
+img{
+    min-width: 100vw;
+    max-height: 97vh;
+}
+
+.btn-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.btn-align{
+width: 30%;
+  }
+
+  .input-align{
+    width: 40%;
+  }
+
+ img.poke-img{
+    min-width: 18vw !important;
+  }

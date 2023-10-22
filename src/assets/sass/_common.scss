@@ -1,0 +1,53 @@
+@import "./variables";
+.left-1 {
+    margin-left: 6rem;
+}
+
+.e-1 {
+    margin-right: 20px;
+}
+
+.alinhamento-topo {
+    margin-top: 3rem;
+}
+
+.alinhamento-lateral {
+    padding-left: 15px;
+}
+
+.button-text-colo-secondary {
+    color: rgb(28, 114, 143);
+}
+
+.menu-color {
+    color: black;
+    background-color: black;
+}
+
+.grey-text {
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    color: $grey-common;
+}
+
+.black-text {
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    color: $black-common;
+}
+
+.space-between {
+    margin-top: 16px;
+}
+
+.background-common {
+    background-color: $light-grey;
+}
+
+.background-1 {
+    background-color: red;
+}
+
+.background-2 {
+    background-color: blue;
+}

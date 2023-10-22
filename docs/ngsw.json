@@ -1,0 +1,113 @@
+{
+  "configVersion": 1,
+  "timestamp": 1697944845638,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/967.js",
+        "/index.html",
+        "/main.js",
+        "/manifest.webmanifest",
+        "/ngsw-worker.js",
+        "/polyfills.js",
+        "/runtime.js",
+        "/safety-worker.js",
+        "/styles.css",
+        "/worker-basic.min.js"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/3rdpartylicenses.txt",
+        "/favicon.ico",
+        "/icons/icon-128x128.png",
+        "/icons/icon-144x144.png",
+        "/icons/icon-152x152.png",
+        "/icons/icon-192x192.png",
+        "/icons/icon-384x384.png",
+        "/icons/icon-48x48.png",
+        "/icons/icon-512x512.png",
+        "/icons/icon-72x72.png",
+        "/icons/icon-96x96.png",
+        "/logos/google.svg",
+        "/logos/logo-facebook.svg",
+        "/logos/logo-google.svg",
+        "/ngsw.json",
+        "/sass/_common.scss",
+        "/sass/_reset.scss",
+        "/sass/_variables.scss",
+        "/sass/styles.scss",
+        "/svg/pokedex-single.svg",
+        "/svg/pokedex.svg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/3rdpartylicenses.txt": "9d76f5c9a8aad7140b0280dca86f47000e6c24e9",
+    "/967.js": "5d2881f859ecdd471ad64bba9dcbfb12d9f3de1c",
+    "/favicon.ico": "65d7d8facea917532ea9d5ad17529f3132c29287",
+    "/icons/icon-128x128.png": "e763893750e29cbedf57aab00f3c097ffd65d195",
+    "/icons/icon-144x144.png": "e763893750e29cbedf57aab00f3c097ffd65d195",
+    "/icons/icon-152x152.png": "e763893750e29cbedf57aab00f3c097ffd65d195",
+    "/icons/icon-192x192.png": "ad4c180509744f9c749a6f28a649be6b92288c13",
+    "/icons/icon-384x384.png": "d4552746d4c3ff5b69c2efdda20848fe17d7e51c",
+    "/icons/icon-48x48.png": "0009ceb9a20d7fc32aebc6490eecb21fc322198e",
+    "/icons/icon-512x512.png": "d4552746d4c3ff5b69c2efdda20848fe17d7e51c",
+    "/icons/icon-72x72.png": "418f2c1ebcad226be301fe0cff529b76ec33dffc",
+    "/icons/icon-96x96.png": "e3667b5c7e124a061b412fda7a4b5238606a0bd0",
+    "/index.html": "084d8e6ee6832d7588433eee59e2b34168a0d5c8",
+    "/logos/google.svg": "4f51328ef887c64a14b1b68ce59aacd2a5450054",
+    "/logos/logo-facebook.svg": "8ecf4bebcc017a187e32a6c07bc64d8fc558ca8e",
+    "/logos/logo-google.svg": "82105dba4ffbb590289ef6abb4c9ba2076705960",
+    "/main.js": "c029e80e4dc2a2a62a49dbb750d8a33a1be841a7",
+    "/manifest.webmanifest": "7c680c7659bb1a92c81b383799bc3b86f4d744d1",
+    "/ngsw-worker.js": "72aa104f807a27569236249011de1e06b58f2fd0",
+    "/ngsw.json": "5a17aa2e6bb555770ae9800a547fac25f8fa58f8",
+    "/polyfills.js": "37a0091ca4b964561154af2ab0e1014710b6e42d",
+    "/runtime.js": "32f1cab445798439799b0d3410b6ae8d780132fa",
+    "/safety-worker.js": "70914dc203fa1f881e56f2b794d7a4f9c48ee745",
+    "/sass/_common.scss": "3a75470cf6cde3604ab01e7e716dfceaa35a0f86",
+    "/sass/_reset.scss": "916e3e23d3b2f11c1badfde8fc14da7be36226c9",
+    "/sass/_variables.scss": "77da25f5ce41e731b36dd03b80e609eda8a105e4",
+    "/sass/styles.scss": "b0e179808a6804317e83001850814308600d247c",
+    "/styles.css": "42d49395d2eb07acc4b416245605e3976e7ea8c2",
+    "/svg/pokedex-single.svg": "04e3787adbfbfd076d51e6accdf264662f776b5d",
+    "/svg/pokedex.svg": "33b44859517c1bec7d30f7f4fbb52469efdec4c7",
+    "/worker-basic.min.js": "70914dc203fa1f881e56f2b794d7a4f9c48ee745"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}

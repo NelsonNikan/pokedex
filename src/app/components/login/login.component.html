@@ -1,0 +1,72 @@
+<main class="container-fluid ">
+    <div class=" row justify-content-center">
+        <h1>Faça seu {{ configs.title }} </h1>
+    </div>
+    <section>
+        <form [formGroup]="form">
+            <div class="row justify-content-center">
+
+                <mat-form-field class="example-full-width">
+                    <mat-label>Email</mat-label>
+                    <input autofocus="true" type="email" matInput formControlName="email" placeholder="Email">
+                    <mat-error *ngIf="emailFormControl && !emailFormControl">
+                        Por favor, adicione um e-mail válido
+                    </mat-error>
+                    <mat-error *ngIf="emailFormControl">
+                        Email é um campo<strong> obrigatório</strong>
+                    </mat-error>
+                </mat-form-field>
+
+            </div>
+            <div class="row justify-content-center">
+                <mat-form-field class="example-full-width">
+                    <mat-label>Senha</mat-label>
+                    <input type="password" matInput formControlName="senha" placeholder="senha">
+                    <mat-error *ngIf="passwordFormControl">
+                        Sua senha deve ter no minimo 8 caracteres
+                    </mat-error>
+
+                </mat-form-field>
+            </div>
+            <ng-container *ngIf="!configs.isSignIn">
+                <div class="row justify-content-center">
+                    <mat-form-field class="example-full-width">
+                        <mat-label>Nome</mat-label>
+                        <input type="text" matInput formControlName="name" placeholder="Nome">
+                        <mat-error *ngIf="nameFormControl">
+                            Seu nome deve ter no mínimo 3 caracteres
+                        </mat-error>
+
+                    </mat-form-field>
+                </div>
+            </ng-container>
+
+        </form>
+    </section>
+    <section>
+        <div class="row alinhamento-topo justify-content-center">
+            <div (click)="navegar('/redefinir-senha')">Esqueci a senha</div>
+            <div>
+                <button mat-stroked-button class="largura-botao-login" (click)="login(authProviders.Email)" [disabled]="form.invalid"> {{ configs.action }}</button>
+            </div>
+        </div>
+        <br>
+        <div class="row justify-content-center">
+            <div>
+                <button mat-flat-button class="button-text-colo-secondary" (click)="changeAuthAction()"> {{ configs.actionChange }}</button>
+            </div>
+        </div>
+        <br>
+        <div class="row justify-content-center">
+            <div>
+                <button mat-raised-button color="primary" (click)="login(authProviders.Facebook)"><img src="./logos/logo-facebook.svg" width="28" alt="Logotipo do facebook no botão de login automático"> Login com Facebook</button>
+            </div>
+        </div>
+        <br>
+        <div class="row justify-content-center">
+            <div>
+                <button mat-raised-button class="largura-botao-cadastro" (click)="login(authProviders.Google)"><img src="./logos/google.svg" width="25" alt="Logotipo da google no botão de login automático"> Login com Gmail</button>
+            </div>
+        </div>
+    </section>
+</main>

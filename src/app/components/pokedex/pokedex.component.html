@@ -1,0 +1,13 @@
+<main>
+    <div class="container">
+        <div class="d-flex justify-content-center align-items-center pokedex-img">
+            <div class="col mx-auto text-center " style="position: relative;">
+                <img class="img-responsive" src="./svg/pokedex-single.svg">
+                <img [src]="pokemonInfos.animation" alt="pokemon animation" class="poke-img" style="position: absolute; top: 45%; left: 47%; transform: translate(-50%, -50%);">
+                <app-poke-input (valueChange)="searchPokemon($event)" [placeholder]="'Find Pokemon'" class="input-align" style="position: absolute; top: 82%; left: 50%; transform: translate(-50%, -50%);"></app-poke-input>
+                <app-joy-stick-button class="btn-align col"  style="position: absolute; top: 90%; left: 40%; transform: translate(-50%, -50%);" [textButton]="'Voltar'" (click)="changePokemon('back')"></app-joy-stick-button>
+                <app-joy-stick-button class="btn-align col"  style="position: absolute; top: 90%; left: 58%; transform: translate(-50%, -50%);" [textButton]="'Avançar'" (click)="changePokemon('next')"></app-joy-stick-button>
+            </div>
+        </div>
+    </div>
+</main>

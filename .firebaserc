@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "pokedex-9dae4": {
+      "hosting": {
+        "pokedex": [
+          "pokedex-9dae4"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "pokedex-9dae4"
+  }
+}
